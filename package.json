@@ -13,7 +13,7 @@
     "url": "https://github.com/thomaspark/bootswatch/issues"
   },
   "scripts": {
-    "build": "grunt swatch",
+    "build": "node init && grunt swatch",
     "docs": "grunt docs",
     "htmllint": "grunt htmllint",
     "stylelint": "stylelint \"dist/**/*.scss\"",
